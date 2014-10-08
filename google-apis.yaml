@@ -1,0 +1,23 @@
+# Configuration for running tool/update.dart
+package_mappings:
+  - core-: core_elements
+  - web-animations: core_elements
+files_to_generate:
+    - google-apis/google-apis.html
+    - google-apis/google-client-api.html
+    - google-apis/google-jsapi.html
+    - google-apis/google-maps-api.html
+    - google-apis/google-youtube-api.html
+    - google-apis/google-plusone-api.html
+
+stubs_to_generate:
+  core_elements:
+    - core-component-page/core-component-page.html
+    - core-shared-lib/core-shared-lib.html
+deletion_patterns:
+  - metadata\.html$
+  - index\.html$
+  - bower\.json$
+ # - ^core-
+ # - ^platform$
+ # - ^polymer$

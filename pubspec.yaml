@@ -1,0 +1,14 @@
+name: google_apis
+version: 0.0.1
+author: Matt Jones <matt+github@mattjones.org>
+description: Google APIs for Dart
+homepage: https://github.com/mattjones.org/google-apis
+dependencies:
+  core_elements: any
+  custom_element_apigen: any
+  polymer: any
+dev_dependencies:
+  path: ">=1.0.0 <2.0.0"
+transformers:
+- polymer:
+    lint: false
