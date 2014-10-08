@@ -65,7 +65,7 @@ class GoogleApiLoader extends GoogleClientApi {
   get api => jsElement['api'];
 
   /// Returns the loaded API.
-  void api() =>
+  void get_api() =>
       jsElement.callMethod('api', []);
 }
 @initMethod
